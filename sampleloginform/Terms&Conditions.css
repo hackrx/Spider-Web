@@ -1,0 +1,47 @@
+#insideScroll
+{
+color: white;
+overflow:auto; 
+padding: 2px 10px;
+
+
+}
+.container-fluid1
+{
+	top: 50px;
+	position: relative;
+	height: 500px;
+	width: 800px;
+	margin: auto;
+	border-radius: 20px;
+	
+	overflow:hidden;  
+}
+.container2
+{
+	height: 500px;
+	overflow:auto;
+	padding: 2px 10px;
+	
+	margin-left: 10px;
+	overflow-x: hidden;
+	border-radius: 20px;
+	
+}
+.container3
+{
+	margin:10px;	
+}
+body
+{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(desg1.jpg); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-attachment:fixed
+}
+.row
+{
+	
+	overflow:auto; 
+}

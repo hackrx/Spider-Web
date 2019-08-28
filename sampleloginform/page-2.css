@@ -1,0 +1,482 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.he2
+{ padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	color: #50C878;
+	display: inline;
+	float: left;
+}
+.he3
+{
+	font-size: 40px;
+	color:#262626;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+li.li1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	float: right;
+	list-style-type: none;
+}
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+li a
+{
+	color: white;
+	margin-top:0px;
+	margin-right:0px; 
+	display: block;
+	font-size: 15px;
+	text-align: center;
+	padding: 15px 12px;
+}
+ a:link
+{
+	text-decoration: none;
+	color: white;
+}
+li.li1 a:hover
+{
+
+	background-color: green;
+	
+	transition: 2s all;
+	color: white;
+
+}
+ul
+{
+
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: transparent;
+	position: sticky;
+	top: 0;
+	padding-left:0px;
+	max-width: 150%;
+	
+}
+li.li1:hover
+{
+	border-top:2px solid blue;
+}
+section.bd
+{
+	position: relative;
+	top: -50px;
+	margin: 0;
+	padding:0;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url("desg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	
+	align-items: center;
+	overflow-x: hidden;
+	
+}
+div.head
+{
+	position: absolute;
+	top:45%;
+	
+align-items: center;
+overflow:hidden;
+width: 100%;
+height: 300px;
+padding: 25px 12px;
+	
+}
+
+
+}
+.ce
+{
+
+}
+	
+.center-head1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: 0px;
+	text-align: center;
+	font-size: 40px;
+	color:white;
+
+}
+a.button-a
+{
+	position: relative;
+	top:50px;
+	margin-left: 45%;
+	color: white;
+	text-align: center;
+	padding: 12px 10px;
+	border:2px solid #1aa3ff;
+    font-size: 2rem;
+	border-radius: 10px;
+
+}
+a.button-a :link
+{
+	text-decoration: none;
+	color:white;
+	display:block;
+}
+a.button-a:hover
+{
+	background-color:#87CEEB;
+	transition: 2s all;
+}
+div.cont
+{
+	
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	top: 150px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+
+}
+div.column
+{
+	width:33.33%;
+	padding: 5px;
+	display: inline-block;
+}
+div.column:hover
+{
+box-shadow: 5px 10px 18px #4db8ff;
+cursor:pointer;
+}
+div.tempsamp
+{
+	position: relative;
+	top: 15px;
+	padding: 0px;
+	display: flex;
+}
+div.font
+{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 250px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 0px;
+}
+a.getstart
+{
+	color: #00b33c;
+	font-size: 25px;
+	border:1px solid blue;
+	border-radius: 10px;		
+	position: relative;
+	top: 30px;
+	padding: 10px 12px;
+	font-style: Arial, Helvetica, sans-serif;
+
+}
+a.getstart:hover
+{
+	transition: 1s;
+	background-color: #4d94ff;
+	color:white;
+}
+#long
+{
+	border: 2px solid blue;
+	padding-top: 200px;
+	padding-bottom: 50px;
+	padding-left: 400px;
+}
+.navsiz
+{
+	z-index: 5;
+	position: sticky;
+	top:0;
+	background-color: rgba(0,0,0,0.5);
+}
+.seetemp
+{
+	color: blue;
+	border:1px solid blue;
+	border-radius: 10px;		
+	
+	padding: 10px 12px;
+	font-style: Arial, Helvetica, sans-serif;
+}
+.seetemp:hover
+{
+	transition: 1s;
+	background-color: #4d94ff;
+	color:white;
+}
+.font
+{
+	 font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	 
+}
+.font_c
+{
+	 font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	 text-align: center;
+}
+.blokk
+{
+	display: flex;
+	align-items: center;
+	width:100%;
+	margin: auto;
+	padding: 2px 150px;
+	
+}
+.innerblok
+{
+	margin: 15px;
+	
+ width:100px;
+ flex: 1;
+ padding: 5px;
+ text-align: center;
+	
+}
+.fontaw
+{
+	font-size: 400px;
+}
+.font_p
+{
+	 font-family: cursive;
+	font-size: 20px;
+	font-weight: normal;
+}
+.font_p1
+{
+	 font-family: cursive;
+	font-size: 13px;
+	font-weight: normal;
+}
+.footer
+{
+	text-align: center;
+	background-image: url("design05.jpg");
+	font-family:Arial, Helvetica, sans-serif; 
+	margin-top: 10px;
+	padding:20px 100px; 
+	height: 150px;
+}
+.footer p
+{
+	font-size: 15px;
+
+}
+a.fot
+{
+	text-decoration: none;
+	color: white;
+	display: inline;
+
+}
+.fot:hover
+{
+	text-decoration: underline;
+	color:white ;
+	background-color: none;
+}
+#last1
+{
+	color: grey;
+
+}
+#last1:hover
+{
+	background-color: green;
+	color: white;
+}
+
+#last_cont
+{
+	display: none;
+	
+}
+#last1:hover ul .last_cont
+{
+display: inline-block;
+
+
+}
+.footer ul li
+{
+	display: inline-block;
+}
+.footer span
+{
+	color: white;
+}
+.dropdown
+{
+	display: inline;
+}
+.btn
+{
+	position: relative;
+	top: 25px;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	background-color: black;
+	padding: 2px 12px;
+}
+.drop_cont
+{
+display: none;
+position: absolute;
+background-color:#66c2ff;
+box-shadow: rgb(0,0,0,0.5) rgb(0,0,0,0.5);
+}
+.drop_cont p
+{
+	text-align: center;
+	color:white;
+	font-family: Arial, Helvetica, sans-serif; 
+	display: block;
+	padding: 5px 12px;
+}
+.dropdown:hover .drop_cont
+{
+	display: block;
+}
+.f1
+{
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid blue;
+  border-radius: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#log0 a {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button.logb
+{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 50%;
+}
+#log0 a:hover {
+  opacity: 0.8;
+}
+#log0 button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: red;
+}
+ .img_cont {
+  text-align: center;
+  margin: 0px 0 12px 0;
+  position: relative;
+}
+ img.avatar {
+  width: 5%;
+  height: 15px;
+  border-radius: 50%;
+}
+ .content_login {
+  padding: 16px;
+}
+
+ span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 25%;
+  top: 25%;
+  width: auto; /* Full width */
+  height: auto; /* Full height */
+  overflow:hidden; /* Enable scroll if needed */
+    padding:0;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px; 
+  border: 5px solid white;
+  border-radius: 10px;
+  margin-left: 150px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+#insideScroll
+{
+color: white;
+overflow:auto; 
+padding: 2px 10px;
+background-color: black;
+margin: auto;
+width: 600px;
+position: relative;
+top: 200px;
+
+}
+
+body
+{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(desg1.jpg); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-attachment:fixed
+}

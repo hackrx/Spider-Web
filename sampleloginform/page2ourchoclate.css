@@ -1,0 +1,135 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+body
+{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url(2162411.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+   
+}
+.div00
+{
+	
+	 border-radius:50%;
+	 position: absolute;
+	 top: 20;
+	 left:10;
+	 background-image: url(./gsi/back01.jpg);
+	 
+}
+.div00 p
+{
+	color: brown;
+	font-size:50px;
+	padding:50px;
+	
+
+}
+.div0
+{
+	border:2px solid red;
+margin: auto;
+margin-top: 10px;
+width: 500px;
+height: 100px;
+overflow: hidden;
+
+}
+nav.nav0
+{
+	
+	margin:auto;
+	text-align: center;
+	overflow: hidden;
+	max-width: 700px;
+	margin-top: 40px;
+	padding: 0;
+}
+ul.uli
+{
+
+}
+.uli li
+{
+	list-style-type: none;
+	display: inline-block;
+	margin:20px;	
+}
+.uli li a
+{
+  text-decoration:none;
+  color:white;
+  font-size:30px
+
+}
+.uli li a:hover
+{
+text-decoration: underline;
+text-decoration-color: blue;
+color: white;
+}
+a #active
+{
+	
+}
+.sec0
+{
+	background-image: url("./gsi/back01.jpg");
+	background-size: cover;
+	
+	margin: 100px;
+	height: auto;
+	overflow: hidden;
+}
+.div01
+{
+	display: flex;
+	margin:5px;
+	padding: 20px;
+
+}
+.pics
+{
+	display: inline-block;
+	flex:1;
+margin:20px;
+	width:150%;
+	height: 150%;
+}
+.pics img
+{
+	width: 100%;
+
+}
+.btn-buy
+{
+	width: 150px;
+	padding: 10px 0;
+	outline:none !important;
+	border-radius: 2px;
+	color: white;
+	border:none;
+	background-color:  #ff6680;
+	bottom: 0;
+	transform: translate(70%,0);
+}
+.pics:hover .btn-buy
+{
+transform: translate(70%,-230%);
+bottom: 50%;
+background-color: #FDA7DF;
+border:none;
+transition: .2s;
+}
+footer
+{
+	background-color: #2D2D32;
+	height: 100px;
+	color: white;
+	
+}

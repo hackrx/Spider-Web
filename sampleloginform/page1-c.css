@@ -1,0 +1,176 @@
+body
+{
+	
+	background-image: url("back-1.jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	margin:0;
+     padding: 0;
+     background-size: 100%;
+
+}
+.heade
+{
+	top: 0px;
+	border-radius: 25px;
+
+}
+.he2
+{ padding: 0;
+	font-size: 40px;
+	color: #50C878;
+}
+.he3
+{
+
+
+	font-size: 40px;
+	color: white;
+}
+.hea1
+{ padding: 0px 0px 0px 0px;
+	margin-left: 25%;
+	overflow: hidden;
+
+}
+.he4
+{
+	color: white;
+	font-size: 20px;
+}
+table
+{
+	background-color: white; 
+	margin-left: 25%;
+	border-radius:20px; 
+	border-color: white;
+	width: 25%;
+	height: ;
+}
+th
+{
+	background-color: #50C878;
+	/*border-radius:20px; 
+	border-color: white; */
+}
+.bluebox
+{
+	word-break: break-word;
+	overflow: hidden;
+	float: left;
+	width: 25%;
+    padding:0;
+	margin-left: 20%;
+	background-color: white;
+	border-radius:10px;
+	text-align: left;
+
+}
+.bluebox1
+{
+	float: right;
+	width: 25%;
+	margin-right: 15%;
+	background-color: white;
+	border-radius:10px;
+}
+.btn
+{
+
+	background-color: green;
+	color: white;
+	padding: 15px 20px;
+	 text-align: center;
+      text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 15px;
+}
+a.btn:hover
+{
+	background-color:green; 
+}
+ul
+{
+   
+}
+.te
+{
+
+	font-size: 12px;
+	color:  #a6a6a6;
+}
+
+.hea
+{
+	background-color:#50C878;
+	margin-top: 0px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+
+	border:none; 
+	padding: 12px 12px;
+}
+a:link
+{
+ text-decoration:none;
+ color: green;
+
+
+}
+a:hover
+{
+
+ color: white;
+ text-decoration:underline;
+ background-color: green;
+
+}
+.sig
+{
+	color: white;
+	display: inline;
+	overflow: hidden;
+	float: right;
+	cursor: pointer;
+	text-align:center;
+	font-size: 16px;
+	border:none;
+	background-color:green;
+      padding: 10px;
+	border-radius:10px;
+	margin-right: 110px;
+}
+#home
+{
+	position: absolute;
+	top: 5.5rem;
+	right: 1.5rem;
+	color: white;
+	float: right;
+	margin-right: 10px;
+}
+.sig:link
+{
+		color:white;
+}
+.sig:hover
+{
+	background-color: green;
+}
+hr
+{
+	background-color:#50C878; 
+	height:1px;
+	border:none;
+}
+ul.cont
+{
+
+	list-style-type: none;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}

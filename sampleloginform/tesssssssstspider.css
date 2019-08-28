@@ -1,0 +1,567 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	padding-bottom: 0;
+}
+
+.he2
+{ padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	color: #50C878;
+	display: inline;
+	float: left;
+}
+.he3
+{
+	font-size: 40px;
+	color:#262626;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+li.li1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	float: right;
+	margin:0px;
+	
+	list-style-type: none;
+}
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+li.li1  a
+{
+	color: white;
+	margin-top:0px;
+	margin-right:0px; 
+	display: block;
+	font-size: 15px;
+	text-align: center;
+	padding: 15px 12px;
+}
+ li.li1 a:link
+{
+	text-decoration: none;
+	color: white;
+}
+li.li1 a:hover
+{
+
+	background-color: green;
+	transition: 1s all;
+	color: white;
+
+}
+ul.uli
+{
+
+	
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: transparent;
+	position: sticky;
+	top: 0;
+	padding-top:0px;
+	padding-bottom: 0px; 
+	padding-left:0px;
+	max-width: 150%;
+	
+}
+li.li1:hover
+{
+	border-top:2px solid blue;
+}
+section.bd
+{
+	position: relative;
+	top: -70px;
+	margin: 0;
+	padding:0;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url("desg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 105vh;
+	
+	align-items: center;
+	overflow-x: hidden;
+	
+}
+div.head
+{
+	position: absolute;
+	top:45%;
+	
+align-items: center;
+overflow:hidden;
+width: 100%;
+height: 400px;
+padding: 25px 12px;	
+}	
+.center-head1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: 0px;
+	text-align: center;
+	font-size: 40px;
+	color:white;
+
+}
+a.button-a
+{
+	position: relative;
+	top:50px;
+	margin-left: 45%;
+	color: white;
+	text-align: center;
+	padding: 12px 10px;
+	border:2px solid #1aa3ff;
+	border-bottom:2px solid #1aa3ff; 
+    font-size: 2rem;
+	border-radius: 50px;
+
+}
+a.button-a :link
+{
+	text-decoration: none;
+	color:white;
+	display:block;
+}
+a.button-a:hover
+{
+	background-color:#4d94ff;
+	transition: 1.2s all;
+}
+div.cont
+{
+	
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	top: 150px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+
+}
+div.column
+{
+	width:33.33%;
+	padding: 5px;
+	display: inline-block;
+}
+div.column:hover
+{
+box-shadow: 5px 10px 18px #4db8ff;
+cursor:pointer;
+}
+div.tempsamp
+{
+	position: relative;
+	top: 15px;
+	padding: 0px;
+	display: flex;
+}
+div.font
+{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 250px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 0px;
+}
+a.getstart
+{
+	color: #00b33c !important;
+	font-size: 25px;
+	border:1px solid blue;
+	border-radius: 10px;		
+	position: relative;
+	top: 30px;
+	padding: 10px 12px;
+	font-style: Arial, Helvetica, sans-serif;
+
+}
+a.getstart:hover
+{
+	transition: 1s;
+	background-color: #4d94ff !important;
+	color:white !important;
+}
+#long
+{
+	border: 2px solid blue;
+	padding-top: 200px;
+	padding-bottom: 50px;
+	padding-left: 400px;
+}
+.navsiz
+{
+	z-index: 5;
+	position: sticky;
+	top:0;
+	overflow: hidden;
+	height: 55px;
+	background-color: rgba(0,0,0,0.5);
+}
+.seetemp
+{
+	color: blue;
+	border:1px solid blue;
+	border-radius: 10px;		
+	
+	padding: 10px 12px;
+	font-style: Arial, Helvetica, sans-serif;
+}
+.seetemp:hover
+{
+	transition: 1s;
+	background-color: #4d94ff;
+	color:white;
+}
+.font
+{
+	 font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	 
+}
+.font_c
+{
+	 font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	 text-align: center;
+}
+.blokk
+{
+	display: flex;
+	align-items: center;
+	width:100%;
+	margin: auto;
+	padding: 2px 150px;
+	
+}
+.innerblok
+{
+	margin: 15px;
+	
+ width:100px;
+ flex: 1;
+ padding: 5px;
+ text-align: center;
+	
+}
+.fontaw
+{
+	font-size: 400px;
+}
+.font_p
+{
+	 font-family: cursive;
+	font-size: 25px;
+	font-weight: normal;
+}
+.font_p1
+{
+	 font-family: cursive;
+	font-size: 15px;
+	font-weight: normal;
+}
+.footer
+{
+	text-align: center;
+	background-color: #2D2D32;
+	font-family:Arial, Helvetica, sans-serif; 
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding:20px 100px; 
+	height: 100px;
+	overflow: hidden;
+
+}
+.footer p
+{
+	font-size: 15px;
+
+}
+footer a.fot
+{
+	text-decoration: none;
+	color: white;
+	display: inline;
+
+}
+footer a.fot:hover
+{
+	text-decoration: underline;
+	color:white ;
+	background-color: none;
+}
+#last1
+{
+	color: grey;
+
+}
+#last1:hover
+{
+	background-color: green;
+	color: white;
+}
+
+#last_cont
+{
+	display: none;
+	
+}
+#last1:hover ul .last_cont
+{
+display: inline-block;
+
+
+}
+.footer ul li
+{
+	display: inline-block;
+}
+.footer span
+{
+	color: white;
+}
+.dropdown
+{
+	display: inline;
+	width: 100px;
+	background-color: transparent;
+}
+p.lag
+{
+	position: relative;
+	top: 10px;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	
+
+}
+
+.f1
+{
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+#log0 a {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+button.logb
+{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 50%;
+}
+#log0 a:hover {
+  opacity: 0.8;
+}
+#log0 button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: red;
+}
+ .img_cont {
+  text-align: center;
+  margin: 0px 0 12px 0;
+  position: relative;
+}
+ img.avatar {
+  width: 5%;
+  height: 15px;
+  border-radius: 50%;
+}
+ .content_login {
+  padding: 16px;
+}
+
+ span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 25%;
+  top: 50%;
+  width:; /* Full width */
+  height:100px; /* Full height */
+  overflow:hidden; /* Enable scroll if needed */
+    padding:0;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px; 
+  border: 5px solid red;
+  border-radius: 10px;
+  margin-left: 150px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/-------Price Plans-------/
+#price
+{
+	padding: 40px 0;
+	background: #efefef;
+}
+.single-price
+{
+	margin: 10px auto;
+	display: inline;
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	transition: 0.5s;
+}
+.single-price:hover
+{
+	box-shadow: 0 2px 20px #333;
+}
+.price-head
+{
+	background-color: #2196f3;
+	display: inline;
+	float: left;
+	padding: 10px 5px;
+	text-align: center;
+	width: 100%;
+}
+.price-head h2
+{
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+.price-head p
+{
+	font-size: 25px;
+	color: #ccc;
+	font-weight: bold;
+	line-height: 30px;
+}
+#price span
+{
+    font-size: 15px;
+ }
+ .price-content
+ {
+ 	display: inline;
+ 	float: left;
+ 	width: 100%;
+ 	padding: 0 20px;
+ }
+ .price-content ul li
+ {
+ 	border-bottom: 1px solid #efefef;
+ 	padding: 15px 10px;
+ 	list-style: none;
+ }
+ ul li:last-child
+ {
+ 	border: none;
+ }
+ .fa-check-circle
+ {
+ 	 color: green;
+ 	 margin-right: 10px;
+ 	 font-size: 20px; 
+ }
+ .fa-times-circle
+ {
+ 	 color: red;
+ 	 margin-right: 10px;
+ 	 font-size: 20px; 
+ }
+ .price-button
+ {
+ 	display: inline;
+ 	float: left;
+ 	padding: 15px 15px 15px;
+ 	text-align: center;
+ 	width: 100%;
+ }
+ .buy-btn
+ {
+ 	background-color: #2196f3;
+ 	border-radius: 3px;
+ 	display: inline-block;
+ 	font-size: 18px;
+ 	padding: 15px 50px;
+ 	transition: 0.5s;
+ }
+ .buy-btn:hover
+ {
+ 	border-color: 1px solid #fff;
+ 	background-color: #3f51b5;
+ }
+ a
+{
+	text-decoration: none !important;
+	color: #fff !important;
+}

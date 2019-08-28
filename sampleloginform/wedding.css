@@ -1,0 +1,74 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	padding-bottom: 0;
+	background-image: url(mpi/heart-529607_1920.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+li.li1
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	float: center;
+	display: inline-block;
+	margin:0px;
+	
+	list-style-type: none;
+}
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+li.li1  a
+{
+	color: white;
+	margin-top:0px;
+	margin-right:50px; 
+	display: block;
+	font-size: 15px;
+	text-align: center;
+	padding: 15px 12px;
+}
+ li.li1 a:link
+{
+	text-decoration: none;
+	color: white;
+}
+li.li1 a:hover
+{
+
+	background-color: green;
+	transition: 1s all;
+	color: white;
+
+}
+ul.uli
+{	
+	margin: 0px;
+	padding-left:50%;
+	overflow: hidden;
+	background-color: transparent;
+	position: sticky;
+	top: 0;
+	padding-top:0px;
+	padding-bottom: 0px; 
+	padding-left:0px;
+	max-width: 150%;
+	
+}
+li.li1:hover
+{
+	border-top:2px solid blue;
+}
